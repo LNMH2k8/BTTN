@@ -2,8 +2,8 @@
 import { defineConfig } from 'vite';
 
 export default defineConfig({
-  // Base path này cực kỳ quan trọng để các file JS/CSS được load đúng từ thư mục con
-  base: '/WebTaoTracNghiem/',
+  // Cập nhật đường dẫn cơ sở để khớp với link: https://lnmh2k8.github.io/BTTN/
+  base: '/BTTN/',
   build: {
     outDir: 'dist',
     rollupOptions: {
